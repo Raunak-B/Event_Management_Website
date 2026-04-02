@@ -112,7 +112,7 @@ export default function ManageEventsTab() {
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Event Name</FormLabel>
+                      <FormLabel>Event </FormLabel>
                       <FormControl>
                         <Input placeholder="Enter event name" required {...field} />
                       </FormControl>
